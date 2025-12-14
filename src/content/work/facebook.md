@@ -1,8 +1,8 @@
 ---
-company: "Facebook"
-role: "Intern"
+company: "腾讯"
+role: "全栈工程师（社交平台方向）"
 dateStart: "07/01/2019"
 dateEnd: "12/31/2019"
 ---
 
-Iure illo neque tempora, voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor. Sit amet consectetur adipisicing elit.
+负责微信公众号后台「图文编辑器」重构，基于 Vue3+Node.js 构建高性能编辑器内核，独立开发 “Markdown 实时渲染” 与 “多图上传优化” 功能，支撑 2000 万 + 公众号创作者，编辑操作响应速度提升 60%；

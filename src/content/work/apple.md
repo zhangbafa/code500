@@ -1,8 +1,10 @@
 ---
-company: "Apple"
-role: "Software Engineer"
+company: "阿里巴巴"
+role: "技术专家（电商供应链方向）"
 dateStart: "01/01/2020"
 dateEnd: "11/27/2022"
 ---
 
-Voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor. Sit amet consectetur adipisicing elit. Iure illo neque tempora.
+负责淘宝 “产地直供” 供应链管理系统重构，基于 Node.js+Rust 混合架构打造高性能数据处理引擎，支持千万级 SKU 库存实时同步，查询响应时间从 300ms 优化至 50ms 以内，支撑日均 10 亿 + 订单流转；
+
+主导 “智能补货预测” 模块研发，融合机器学习算法与实时数据计算，为 2 万 + 产地商家提供补货建议，商家库存周转效率提升 35%，缺货率下降 28%，直接带动 GMV 增长 1.2 亿元 / 季度；

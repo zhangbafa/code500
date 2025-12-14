@@ -1,8 +1,8 @@
 ---
-company: "Google"
-role: "Staff Software Engineer"
+company: "字节跳动"
+role: "高级全栈工程师（短视频生态方向）"
 dateStart: "11/27/2022"
 dateEnd: "Current"
 ---
 
-Sit amet consectetur adipisicing elit. Iure illo neque tempora, voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor.
+主导短视频创作者工具「剪映 Web 版」核心模块研发，基于 React+Go 构建全栈架构，独立负责 “实时预览引擎” 与 “导出优化” 模块，支撑 500 万 + 日活用户，导出成功率从 92% 提升至 99.7%；
