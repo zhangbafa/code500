@@ -33,95 +33,20 @@ const work = await Promise.all(
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
     <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Yongzhi <span class="text-xl">👋🏻</span> 
+      Hi, <span class="text-xl">👋🏻</span> 
     </h4>
     <div class="space-y-16">
       <section>
         <article class="space-y-4">
-          <p class="animate">
-            全栈独立开发者，专注「从 0 到 1 的产品闭环构建」。
-          </p>
-          <p class="animate">
-            主导开发 轻量高性能内容平台：基于 Astro+Go 构建，支持 Markdown/MDX 全功能，Lighthouse 全项满分，单服务器承载 10 万 + 日活，无缓存情况下首屏加载小于300ms；
-          </p>
-          <p class="animate">
-            自研 跨平台工具集 CodeSlim：用 Rust 重构核心逻辑，体积压缩 60%，支持多端同步与离线使用，GitHub 星标 2k+，被纳入多个开源生态推荐清单；
-          </p>
-          <p class="animate">
-            独立交付 企业级数据可视化系统：从需求拆解到部署运维全流程把控，支持千万级数据实时渲染，适配移动端 / 桌面端 / 大屏，为客户提升 40% 决策效率。
-          </p>
-          <p class="animat">
-            开发 跨端音视频工具 MediaForge：融合 FFmpeg 底层能力与 WebAssembly 优化，支持浏览器端实时编解码与格式转换，无需后端依赖，上线 3 个月累计处理 50 万 + 视频文件；
-          </p>
-          <p class="animate">
-            打造 个人知识管理系统 MindVault：融合本地存储与云端同步，支持 Markdown 双向链接、思维导图生成，全平台适配，个人使用 2 年沉淀 1000+ 技术笔记，开源后获 1.2k+ GitHub 星标。
+        <p class="animate font-semibold text-black dark:text-white"">
+            抖音直播间助手，下载链接:
+           <Link href="https://pan.baidu.com/s/1l4a09vdjf1H-BRjU0sxZ7A?pwd=thp0">
+              https://pan.baidu.com/s/1l4a09vdjf1H-BRjU0sxZ7A?pwd=thp0 
+            </Link>
+          <p>
+          
           </p>
         </article>
-      </section>
-
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
-            Latest posts
-          </h5>
-          <Link href="/blog">
-            See all posts
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {blog.map(post => (
-            <li>
-              <ArrowCard entry={post} />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
-            Work Experience
-          </h5>
-          <Link href="/work">
-            See all work
-          </Link>
-        </div>
-        <ul class="flex flex-col space-y-4">
-          {work.map(entry => (
-            <li>
-              <div class="text-sm opacity-75">
-                {dateRange(entry.data.dateStart, entry.data.dateEnd)}
-              </div>
-              <div class="font-semibold text-black dark:text-white">
-                {entry.data.company}
-              </div>
-              <div class="text-sm opacity-75">
-                {entry.data.role}
-              </div>
-              <article>
-                <entry.Content />
-              </article>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
-            Recent projects
-          </h5>
-          <Link href="/projects">
-            See all projects
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {projects.map(project => (
-            <li>
-              <ArrowCard entry={project} />
-            </li>
-          ))}
-        </ul>
       </section>
 
       <section class="animate space-y-4">
